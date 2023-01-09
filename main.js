@@ -171,7 +171,6 @@ function mouseover(e) {
         .transition()
         .style('opacity', 0.98)
         .text(thisBarData.Country+"   Cases:"+thisBarData.New_cases);
-
 }
 
 function mousemove(e) {
@@ -454,7 +453,7 @@ function pacific_data(data){
 $(".asa_btn").click(function () {
     $(".st1")
     .css("stroke-width", " 3")
-    .css("stroke","#243eff")
+    .css("stroke","#496cbf")
     .css("transform"," translate(-10px ,-10px)")
     $(".st2")
     .css("stroke-width", " 0.2")
@@ -473,7 +472,7 @@ $(".med_btn").click(function () {
     .css("transform", " translate(0 ,0)");;
     $(".st2")
     .css("stroke-width", " 3")
-    .css("stroke","#243eff")
+    .css("stroke","#496cbf")
     .css("transform"," translate(-10px ,-10px)")
     $(".st3").css("stroke-width", " 0.2")
     .css("transform", " translate(0 ,0)");;
@@ -491,7 +490,7 @@ $(".afr_btn").click(function () {
     .css("transform", " translate(0 ,0)");;
     $(".st3")
     .css("stroke-width", " 3")
-    .css("stroke","#243eff")
+    .css("stroke","#496cbf")
     .css("transform"," translate(-10px ,-10px)")
     $(".st4").css("stroke-width", " 0.2")
     .css("transform", " translate(0 ,0)");;
@@ -513,7 +512,7 @@ $(".pcf_btn").click(function () {
     .css("transform", " translate(0 ,0)");;
     $(".st6")
     .css("stroke-width", " 3")
-    .css("stroke","#243eff")
+    .css("stroke","#496cbf")
     .css("transform"," translate(-10px ,-10px)")
 });
 $(".ame_btn").click(function () {
@@ -527,7 +526,7 @@ $(".ame_btn").click(function () {
     .css("transform", " translate(0 ,0)");;
     $(".st5")
     .css("stroke-width", " 3")
-    .css("stroke","#243eff")
+    .css("stroke","#496cbf")
     .css("transform"," translate(-10px ,-10px)")
     $(".st6").css("stroke-width", " 0.2")
     .css("transform", " translate(0 ,0)");;
@@ -541,7 +540,7 @@ $(".eur_btn").click(function () {
     .css("transform", " translate(0 ,0)");;
     $(".st4")
     .css("stroke-width", " 3")
-    .css("stroke","#243eff")
+    .css("stroke","#496cbf")
     .css("transform"," translate(-10px ,-10px)")
     $(".st5").css("stroke-width", " 0.2")
     .css("transform", " translate(0 ,0)");;

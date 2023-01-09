@@ -2,17 +2,14 @@
 body,html{
     background-color: rgb(218, 218, 218);
 }
-
-
 *{
     position: relative;
     -webkit-user-select: none;
 }
 .bar_chart_container{
     display: flex;
-        /* align-items: center; */
-        justify-content: center;
-        flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
 }
 .btn{
     cursor: pointer;
@@ -36,7 +33,6 @@ body,html{
     width: 80px;
     height: 25px;
 }
-
 .btn_r{
     border-radius: 10px;
     margin-left: 10px;
